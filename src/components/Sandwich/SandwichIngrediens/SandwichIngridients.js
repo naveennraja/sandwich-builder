@@ -5,6 +5,7 @@ class SandwichIngredients extends Component {
      state = {  }
      render() { 
           let ingridients = null;
+         // console.log(this.props.type);
           switch(this.props.type){
                case "bread-bottom": {
                     ingridients = <div className="BreadBottom"></div>
