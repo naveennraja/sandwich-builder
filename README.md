@@ -1,7 +1,6 @@
 ## Sandwich Builder
 
 React course which helped to berger/sandwich builder 
-
 Each element can be build as part of the components
 
 ## Components
