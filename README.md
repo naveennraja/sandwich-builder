@@ -5,7 +5,7 @@ React course which helped to berger/sandwich builder
 Each element can be build as part of the components
 
 ## Components
-Navigation<br />
+Navigation Components<br />
 User Interface<br />
 Sandwich<br />
 
