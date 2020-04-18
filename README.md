@@ -1,4 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sandwich Builder
+
+React course which helped to berger/sandwich builder 
+
+Each element can be build as part of the components
+
+# Components
+Navigation
+User Interface
+Sandwich
+
+# Container
+Layout 
+Sandwich Builder
+
+# Functionalities
+Adding/Removing Ingredients
+Order Confirmation
+Navigation Desktop/Mobile
 
 ## Available Scripts
 
