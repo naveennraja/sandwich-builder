@@ -11,7 +11,7 @@ Sandwich<br />
 
 ## Container
 Layout <br />
-Sandwich Builder<br />
+Sandwich/Berger Builder<br />
 
 ## Functionalities
 Adding/Removing Ingredients<br />
