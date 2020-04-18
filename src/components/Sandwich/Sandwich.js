@@ -13,7 +13,7 @@ const Sandwich = (props) => {
      if(transformedIngridients.length === 0){
          transformedIngridients = <p>Please add the ingridients </p> 
      }
-     console.log(transformedIngridients);
+     //console.log(transformedIngridients);
      return (  
           <div className="Sandwich">
                <SandwichIngredients type="bread-top"/>

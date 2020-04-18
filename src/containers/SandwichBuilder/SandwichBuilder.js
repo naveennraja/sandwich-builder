@@ -65,6 +65,9 @@ class  SandwichBuilder extends Component {
      purchaseCancelHandler = () => {
           this.setState({purchasing:false})
      }
+     purchaseContinueHandler =() =>{
+          console.log("Continue with order");
+     }
      render() { 
           const disabledInfo = {
                ...this.state.ingridients
@@ -76,7 +79,12 @@ class  SandwichBuilder extends Component {
                <Modal 
                show= {this.state.purchasing}
                modalClosed= {this.purchaseCancelHandler}>
-                    <OrderSummary  ingredients={this.state.ingridients}/>
+                    <OrderSummary  
+                    ingredients={this.state.ingridients}
+                    purchaseCancelled= {this.purchaseCancelHandler}
+                    purchaseContinued={this.purchaseContinueHandler}
+                    price={this.state.totalPrice}
+                    />
                </Modal>
                <Sandwich ingridients={this.state.ingridients}/>
                <SandwichControls

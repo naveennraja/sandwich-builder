@@ -1,7 +1,8 @@
 import React from 'react';
 import "./SandwichControl.css";
+
+// Adding and Removing the sandwich ingredients 
 const sandwichControl = (props) => {
-     console.log("C",props);
      return (<div className="SandwichControl">
           <div className="Label">{props.label}</div>
           <button 

@@ -1,28 +1,31 @@
 .SandwichControls {
-     width: 100%;
-     background-color: #d45079;
+     width: 50%;
+     background-color: #f12d2c;
      display: flex;
      flex-flow:column;
      align-items:center;
      box-shadow: 0 2px 1px #ccc;
      margin:auto;
      padding:10px;
+     border-radius: 36px;
+     color:#ffeed0;
 }
 .OrderButton {
-     background-color: #DAD735;
+     background-color: #f79f24;
      outline: none;
      cursor: pointer;
-     border: 1px solid #966909;
-     color: #966909;
+     border: 1px solid #ffeed0;
+     color: #ffeed0;
      font-family: inherit;
      font-size: 1.2em;
      padding: 15px 30px;
      box-shadow: 2px 2px 2px #966909;
+     margin:15px 0;
  }
  .OrderButton:hover, .OrderButton:active {
-     background-color: #A0DB41;
-     border: 1px solid #966909;
-     color: #966909;
+     background-color: #f79f24;
+     border: 1px solid #ffeed0;
+     color: #ffeed0;
  }
  .OrderButton:disabled {
      background-color: #C7C6C6;
@@ -37,4 +40,10 @@
      0% { transform: scale(1); }
      60% { transform: scale(1.1); }
      100% { transform: scale(1); }
+ }
+ @media (max-width: 650px) { 
+    .SandwichControls {
+        width: 100%;
+        border-radius: 0;
+    }
  }
