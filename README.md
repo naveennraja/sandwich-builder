@@ -4,19 +4,19 @@ React course which helped to berger/sandwich builder
 
 Each element can be build as part of the components
 
-# Components
-Navigation
-User Interface
-Sandwich
+## Components
+Navigation<br />
+User Interface<br />
+Sandwich<br />
 
-# Container
-Layout 
-Sandwich Builder
+## Container
+Layout <br />
+Sandwich Builder<br />
 
-# Functionalities
-Adding/Removing Ingredients
-Order Confirmation
-Navigation Desktop/Mobile
+## Functionalities
+Adding/Removing Ingredients<br />
+Order Confirmation<br />
+Navigation Desktop/Mobile<br />
 
 ## Available Scripts
 
