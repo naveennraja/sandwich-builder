@@ -1,5 +1,6 @@
 {
   "name": "sandwich-builder",
+  "homepage": "http://naveennraja.github.io/sandwich-builder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
