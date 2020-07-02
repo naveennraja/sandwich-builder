@@ -1,4 +1,4 @@
-## Sandwich / Berger Builder
+## Subway Sandwich / Berger Builder
 
 React course which helped to berger/sandwich builder. Concentrating core components of react.
 Each element can be build as part of the components
